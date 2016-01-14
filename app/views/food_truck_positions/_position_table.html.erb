@@ -1,0 +1,14 @@
+
+<% @food_truck_positions.each do |position| %>
+  <tr>
+    <td>
+ 	    <%= position.id %>
+ 	  </td>
+    <td>
+      <%= position.lat %>	  
+    </td>
+    <td>
+      <%= position.lng %>	  
+    </td>
+ </tr>
+<% end %>
